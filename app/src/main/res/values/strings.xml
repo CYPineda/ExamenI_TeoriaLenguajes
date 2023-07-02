@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Examen I - Teoría Lenguajes</string>
+    <string name="app_fut">FUTBOLISTA</string>
+    <string name="app_id">ID</string>
+    <string name="app_nombre">Ingrese el nombre del futbolista</string>
+    <string name="app_apellidos">Ingrese los apellidos del futbolista</string>
+    <string name="app_edad_fut">Ingrese la edad del futbolista</string>
+    <string name="app_ingresar_futbolista">INGRESAR FUTBOLISTA</string>
+    <string name="app_btningresar">REGISTRAR NUEVO FUTBOLISTA</string>
+    <string name="app_btnlista">LISTA DE FUTBOLISTAS</string>
+    <string name="app_botonmenu">MENÚ</string>
+    <string name="app_examen">EXAMEN I - TEORÍA LENGUAJES\nCREADORES: CINDY YANETH PINEDA PERAZA\nJOSÉ SAMUEL AGUILAR RODRÍGUEZ</string>
+
+    <string-array name="gender_options">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="paises_opt">
+        <item>Honduras</item>
+        <item>México</item>
+        <item>Qatar</item>
+        <item>Haití</item>
+    </string-array>
+
+    <string-array name="posiciones_opt">
+        <item>Portero</item>
+        <item>Central</item>
+        <item>Mediocampista</item>
+        <item>Delantero</item>
+    </string-array>
+
+</resources>

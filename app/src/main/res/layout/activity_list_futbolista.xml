@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityListFutbolista">
+
+    <TextView
+        android:id="@+id/lblLista"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:autoText="true"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/app_btnlista"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textDirection="firstStrongRtl"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/ListaFut"
+        android:layout_width="match_parent"
+        android:layout_height="523dp" />
+
+    <Button
+        android:id="@+id/btnmenul"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:backgroundTint="#00A2B6"
+        android:onClick="Menu"
+        android:text="@string/app_botonmenu"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityIngresarNuevoFutbolista"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txttitulofut"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:autoText="true"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/app_fut"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textDirection="firstStrongRtl"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_id"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtnombrefut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtapellidofut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_apellidos"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/cmbpaisesfut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/paises_opt" />
+
+    <Spinner
+        android:id="@+id/cmbposicionesfut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/posiciones_opt" />
+
+    <EditText
+        android:id="@+id/txtedadfut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_edad_fut"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btningresarfut"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="#00A2B6"
+        android:text="@string/app_ingresar_futbolista" />
+
+    <Button
+        android:id="@+id/btnmenul"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:backgroundTint="#00A2B6"
+        android:onClick="Menu"
+        android:text="@string/app_botonmenu" />
+</LinearLayout>
